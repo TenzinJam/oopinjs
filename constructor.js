@@ -1,6 +1,7 @@
+const print = require('./print')
 // 1) Constructor Function
 //You can tell it is a constructor function because it is Uppercased(the first letter of the name)
-//This is why they say the OOP in JS is basically a function and you can see these objects are creating using a function. 
+//This is why they say the OOP in JS is basically a function and you can see these objects are creating using a function.
 const Person = function(name, birthYear){
   this.name = name;
   this.birthYear = birthYear;

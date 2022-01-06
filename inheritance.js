@@ -1,3 +1,8 @@
+const print = require('./print')
+// Inheritance using classes
+
+
+
 class Person{
   constructor(name, year){
     this.name = name;
@@ -18,7 +23,7 @@ class Student extends Person{
     super(name, year)
     this.batch = batch
   }
-  //You have access to all the methods in the parent class, but you can modify/edit that function here if that's want to do. 
+  //You have access to all the methods in the parent class, but you can modify/edit that function here if that's want to do.
 }
 
 const xiao = new Student("Xiao", 2001, 2023)

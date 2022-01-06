@@ -1,3 +1,4 @@
+const print = require('./print')
 // Regular function returning an object
 
 function person(name, age){

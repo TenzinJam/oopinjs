@@ -1,3 +1,5 @@
+const print = require('./print')
+
 // 3) Object.create()
 //This approach is rarely used but for the sake of variations/options out there in js, it is included here.
 
