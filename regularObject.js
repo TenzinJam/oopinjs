@@ -1,3 +1,5 @@
+// Regular function returning an object
+
 function person(name, age){
   return {
     name: name,
