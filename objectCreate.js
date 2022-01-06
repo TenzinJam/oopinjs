@@ -15,7 +15,7 @@ Person1.prototype.calcAge = function(){
 const Student = function(firstName, birthYear, course){
   //this.firstName = firstName;
   //this.birthYear = birthYear;
-    Person1.call(this,firstName, birthYear);
+    Person1.call(this, firstName, birthYear);
     this.course = course;
 }
 
