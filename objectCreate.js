@@ -13,8 +13,8 @@ Person1.prototype.calcAge = function(){
 const Student = function(firstName, birthYear, course){
   //this.firstName = firstName;
   //this.birthYear = birthYear;
-        Person1.call( this,firstName, birthYear);
-        this.course = course;
+    Person1.call(this,firstName, birthYear);
+    this.course = course;
 }
 
 //Linking prototypes
@@ -26,9 +26,7 @@ Student.prototype.introduce = function(){
 
 const mike = new Student('Mike','1992','Computer Science');
 console.log(mike);
-//Student {firstName: "Mike", birthYear: "1992", course: "Computer Science"}
 
 mike.introduce();
-//My name is Mike and I study  Computer Science.
 
 mike.calcAge(); //30
